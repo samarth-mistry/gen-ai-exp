@@ -2,3 +2,5 @@ https://github.com/NirDiamant/RAG_Techniques/tree/main?tab=readme-ov-file
 https://github.com/BlueBash/RAG-Raptor-RE-Ranker-demo/blob/main/README.md
 https://huggingface.co/docs/diffusers/index
 https://github.com/JindongGu/Awesome-Prompting-on-Vision-Language-Model?utm_source=chatgpt.com
+https://github.com/microsoft/ai-agents-for-beginners
+
