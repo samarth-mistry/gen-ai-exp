@@ -4,3 +4,20 @@ https://huggingface.co/docs/diffusers/index
 https://github.com/JindongGu/Awesome-Prompting-on-Vision-Language-Model?utm_source=chatgpt.com
 https://github.com/microsoft/ai-agents-for-beginners
 
+langchain_core.prompts provides prompt building blocks, not third-party libs. The most commonly used classes are:
+BasePromptTemplate – Abstract base for all prompt templates.
+PromptTemplate – String-based prompt with {variable} substitution.
+ChatPromptTemplate – Prompt composed of multiple chat messages (system/user/assistant).
+MessagePromptTemplate – Base class for message-level templates.
+SystemMessagePromptTemplate – Template for system role messages.
+HumanMessagePromptTemplate – Template for user (human) messages.
+AIMessagePromptTemplate – Template for assistant messages.
+MessagesPlaceholder – Placeholder to inject a list of prior messages (memory, history).
+FewShotPromptTemplate – Prompt with example input–output pairs for few-shot learning.
+FewShotChatMessagePromptTemplate – Few-shot examples formatted as chat messages.
+PipelinePromptTemplate – Composes multiple prompt templates sequentially.
+ChatMessagePromptTemplate – Generic role-based message template.
+PromptValue – Rendered prompt object passed to models.
+StringPromptValue – PromptValue backed by a plain string.
+ChatPromptValue – PromptValue backed by chat messages.
+Default usage: PromptTemplate for text LLMs, ChatPromptTemplate + MessagesPlaceholder for chat models, FewShot* when examples materially improve outputs.
