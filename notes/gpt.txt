@@ -1,0 +1,3 @@
+llm inf. and quantization - https://chatgpt.com/share/69862c74-7a10-8012-ac43-12f804e936c3
+vector DB indexing - https://chatgpt.com/share/69862d3c-e464-8012-83a1-a80daf10924e
+vector indexing strategy - https://chatgpt.com/share/69862d7e-58a0-8012-ae21-9ac67b6e2bc9
